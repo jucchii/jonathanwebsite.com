@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+	<script type = "text/javascript">
+	window.alert("שלום");
+	</script>
+	<head>
+	 <meta charset="utf-8">
+	 <title> טופס </title>
+	</head>
+	<body dir="rtl">
+	<h1 style= "color:black;text-decoration:underline">
+	טופס בשביל לקבל המלצות על סדרות</h1>
+	<hr/>
+
+	<form name="myForm">
+	שם פרטי:
+	<input type="text" name="name"/>
+	שם משפחה:
+		<input type="text" name="lastName"/>
+		<br/>
+	מגדר:
+	<input type="radio" name="gender" value="Male"/>זכר
+	<input type="radio" name="gender" value="Female"/> נקבה
+<br/>
+	כתובת:
+	<input type="text" name="street"/>
+	<input type="text" name="number"/>
+	<select name="city" text="בחר מרשימה">
+	<option name="citySHOAM"> שוהם</option>
+	<option name="cityYAHUD"> יהוד</option>
+	<option name="cityLOD"> לוד</option></select>
+	<input type="text" name="postal"/>
+	</br>
+	רחוב     מספר      ישוב       מיקוד
+</br>
+	טלפון:
+	<input type="text" name="name"/>
+		<select name="area code" text="בחר מרשימה">
+	<option name="058"> 058</option>
+	<option name="054"> 054</option>
+	<option name="050"> 050</option></select>
+	<br/>
+		זנאר סדרות מבוקש:
+	<input type="checkbox" name="Genre" value="faimly"/>משפחה
+	<input type="checkbox" name="Genre" value="roment"/> רומנטי
+	<input type="checkbox" name="Genre" value="action"/>פעולה
+	<input type="checkbox" name="Genre" value="comdie"/> קומדיה
+	<input type="checkbox" name="Genre" value="drama"/>דרמה
+	<br/>
+בקשות נוספות:
+<br/>
+<textarea cols = "50" rows = "5" name= "special" id= "special">
+</textarea> <br/>
+<input type = "submit" value= "שלח טופס">
+<input type = "reset" value= "אפס טופס">
+	</form>
+	 </body>
+	 </html>
